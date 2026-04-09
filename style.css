@@ -29,7 +29,7 @@ body {
 }
 
 .lists li {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -53,6 +53,7 @@ body {
 /*  Hero Section */
 
 .hero-section {
+    height: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,6 +68,10 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.left span {
+    color: rgb(157, 198, 210);
 }
 
 .left p {
@@ -84,6 +89,11 @@ body {
     font-weight: 500;
 }
 
+.left button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
 .right {
     width: 50%;
 }
@@ -93,4 +103,28 @@ body {
     height: 400px;
     /* height badhao */
     object-fit: cover;
+}
+
+
+/* Services Section */
+
+.achievements {
+    background-color: rgb(157, 198, 210);
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    gap: 60px;
+}
+
+.box {
+    text-align: center;
+    padding: 15px;
 }
